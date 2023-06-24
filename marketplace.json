@@ -1,6 +1,6 @@
 {
     "app_name": "Helsinki Transit Tracking",
-    "description": "Shows Realtime Tracking of Helsinki Transit Feeds using RedisTimeSeries + RedisGears", 
+    "description": "Shows Realtime Tracking of Helsinki Transit Feeds using Redis", 
     "featured": true,
     "rank": 40,
     "type": "Full App",
@@ -21,8 +21,8 @@
     
     "language": ["Go", "Python"], 
     "redis_commands": ["TS.ADD", "TS.CREATE", "PUBLISH", "SUBSCRIBE", "XADD", "SADD", "TS.CREATERULE", "TS.MRANGE"],
-    "redis_features": ["Pub/Sub", "Streams"],
-    "redis_modules": ["RedisTimeSeries", "RedisGears"], 
+    "redis_use_cases": ["Pub/Sub", "Streams"],
+    "redis_features": ["Time Series", "Triggers and Functions"], 
     "app_image_urls": [
         "https://raw.githubusercontent.com/redis-developer/expert-garbanzo/master/docs/Single.png",
         "https://raw.githubusercontent.com/redis-developer/expert-garbanzo/master/docs/arch.jpg",
