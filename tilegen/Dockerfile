@@ -1,4 +1,4 @@
-FROM osgeo/gdal:alpine-small-latest
+FROM ghcr.io/osgeo/gdal:alpine-small-latest
 
 # Add PostgreSQL Client Binary
 RUN apk add postgresql-client
